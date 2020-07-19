@@ -1,0 +1,41 @@
+a=int(input("a num")) 
+    for (a=1, a<=100, a++) 
+        if (a%15 == 0):         
+            print("FizzBuzz\t")     
+        else if ((a%3) == 0):    
+            print("Fizz\t")                
+        else if ((a%5) == 0):                        
+            print("Buzz\t")                 
+      
+        else:             
+            print("sorry", a)      
+============================
+def Check_Vow(string, vowels):
+    string = string.casefold()
+    count = {}.fromkeys(vowels, 0)
+    for character in string:
+        if character in count:
+            count[character] += 1
+    return count
+vowels = 'aeiou'
+string = "stay home stay safe"
+print(Check_Vow(string, vowels))
+
+=>C:\Users\Hp\PycharmProjects\1stprobably\venv\Scripts\python.exe C:/Users/Hp/PycharmProjects/1stprobably/1stprobably.py
+{'a': 3, 'e': 2, 'i': 0, 'o': 1, 'u': 0}
+
+Process finished with exit code 0
+=============================
+x=int(input())
+pop = x % 10;
+x /= 10;
+temp = rev * 10 + pop;
+rev = temp;
+============================
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+c=a+b
+    if a <5100:
+print(c)
+else:
+    print("can't run")
